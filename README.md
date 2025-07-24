@@ -26,15 +26,14 @@ The directory structure of the files is as follows:
 ```bash
 (ar_replace) $ tree
 .
-├── demo.py
-├── demo_orin.py
-├── demo_stable.py
-├── readme.md
-├── replace_template.png
-├── template_1.png
-└── template_2.png
+├── ReadMe.md
+├── main.py
+└── resources
+    ├── replace_template.png
+    ├── template_1.png
+    └── template_2.png
 
-1 directory, 7 files
+2 directories, 5 files
 ```
 
 If you want to use other files, you can also find the line `template_a, template_b_composite, kp_a, des_a = load_templates('./resources/template_1.png', './resources/template_b.png')` in main.py to specify your file path
