@@ -37,12 +37,12 @@ The directory structure of the files is as follows:
 1 directory, 7 files
 ```
 
-If you want to use other files, you can also find the line `template_a, template_b_composite, kp_a, des_a = load_templates('template_1.png', 'template_b.png')` in main.py to specify your file path
+If you want to use other files, you can also find the line `template_a, template_b_composite, kp_a, des_a = load_templates('./resources/template_1.png', './resources/template_b.png')` in main.py to specify your file path
 
 ## Step2. Run scripts
 ```bash
 (ar_replace) $ python main.py
 ```
 
-![single_detect](./single_detect.gif)
+![single_detect](./resources/single_detect.gif)
 
