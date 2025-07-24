@@ -131,7 +131,7 @@ def load_templates(path_a, path_b):
 
 
 def main():
-    template_a, template_b_composite, kp_a, des_a = load_templates('template_1.png', 'template_b.png')
+    template_a, template_b_composite, kp_a, des_a = load_templates('template_1.png', 'replace_template.png')
     h, w, _ = template_a.shape
     cap = cv2.VideoCapture(0)
     if not cap.isOpened():
